@@ -5,7 +5,7 @@ function getWordCount(sentence) {
 for(var count = 0; count < sentence.length; count++) {
 
   if(sentence[count] === " "){
-    total += 1;
+    total++;
   }
 }
   total += 1;
