@@ -5,5 +5,9 @@ function isTheAverageWhole(numbersArray){
     sum += numbersArray[start];
   }
   var total = sum/numbersArray.length;
-  return total;
+
+  if(total % 1){
+    return false;
+  } else
+  return true;
 }
