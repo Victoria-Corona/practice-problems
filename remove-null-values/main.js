@@ -1,10 +1,10 @@
 function removeNullValues(array){
 
-  var container = "";
+  var container = [];
 
   for(var index = 0; index < array.length; index++){
     if(array[index] !== null){
-    container += array[index] + " ";
+    container.push(array[index]);
   }
 
   }
