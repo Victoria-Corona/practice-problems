@@ -13,6 +13,7 @@ var month = dataObject.getMonth();
 
 if(day === 24 && month === 11){
   return true;
-} else
-  return false;
+} else {
+return false;
+}
 }
